@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300;400;700&family=Bebas+Neue&family=Fruktur&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --cor0: #FAFAFA;
+    --cor1: #E8F1F5;
+    --cor2: #005691;
+    --cor3: #004A7C;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+   
+    text-decoration: none;
+    font-family: var(--fonte-destaque), var(--fonte-padrao);
+}
+
+nav{
+    box-shadow: 0px 5px 20px #757575;
+    width: 2150px;
+    height: 100px;
+    font-size: 25px;
+}
+img {
+    width: 190px;
+
+}
+form {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    width: 40%;
+    padding: 6px 0px 0px 112px;
+}
+
+
+.jumbotron{
+  align-content: center;
+  margin: 20px;
+  padding-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    font-family: var(--fonte-destaque);
+    color: var(--cor3);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.315);
+   
+}
+
+
+footer{
+    margin: 0;
+    background-color: #F4ECFF;
+    width: 2150px;
+    font-family: var(--fonte-destaque);
+    align-items: center;
+    position: absolute;
+    font-size: 25px;
+}

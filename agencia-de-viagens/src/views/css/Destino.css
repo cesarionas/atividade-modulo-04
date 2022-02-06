@@ -1,0 +1,97 @@
+
+
+.grid{
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    grid-gap: 60px 200px;
+    align-items: center;
+    position: relative;
+}
+.grid > article{
+    border-radius: 20px;
+    background-color: var(--cor3);
+    box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.315);
+    text-align: center;
+    width: 350px;
+    transition: transform .3s;
+
+}
+.grid > article:hover{
+    transform: translateX(5px);
+    box-shadow: 2px 2px 26px 0px rgb(0, 0, 0, 0.3);
+}
+
+.grid > article img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.text{
+    padding: 0 20px 20px;
+    font-family: var(--fonte-destaque);
+    color: var(--cor1);
+}
+
+.text h3{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.botao{
+    background-color: var(--cor1);
+    border-radius: 20px;
+    border: none;
+    color: var(--cor3);
+    padding: 10px;
+    width: 30%;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform .3s;
+    
+}
+.botao:hover{
+    background-color: var(--cor0);
+    color: var(--cor1);
+}
+.selecao{
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+}
+
+.continentes{
+   
+    margin: 0px;
+    padding: 25px;
+    color: var(--cor0);
+    border-radius: 6px;
+    background-color: var(--cor3);
+    box-shadow: 2px 2px 26px 0px rgb(0, 0, 0, 0.3);
+    
+}
+
+
+.paises ul{
+    list-style: none;
+    width: 110px;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.paises li:hover{
+    color: var(--cor2);
+    
+    
+}
+
+
+.promocao{
+    text-decoration: line-through red;
+    color: red;
+}
