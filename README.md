@@ -1,16 +1,16 @@
 Agência de Viagens React
 
 
-Usado o Ecosistema Spring, com Front-end usando ReactJS e Back-end com Java Spring Boot, Spring MVC, Persistencia de Dados.
+Front feito com ReactJS e Back com Java Spring Boot.
 
 #Banco de dados
 
-Construção da base de dados foi usado o padrão SQL Server.
+Banco de dados utilizado foi relacional SQL SERVER.
 
-#Back-end
+#Back
 
-Os padrões de projeto MVC com framework Spring.
+projeto MVC com framework Spring.
 
-#Front-end
+#Front
 
-Aplicação criada  com a biblioteca React, usando todo o poder dos compenentes, Code Splitting, states, router, flux, redux).
+Criada  com a biblioteca React, usando todo o poder dos compenentes, Code Splitting, states, router, flux, redux).
